@@ -1,0 +1,416 @@
+body {
+    background-color: #E0E3FF;
+}
+.form1 {
+    width: 400px;
+    height: 400px;
+    margin: 34px;
+    float: left;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+}
+.header1 {
+    margin: 34px 140px 41px 140px;
+    font-family: Inter;
+    font-size: 44px;
+    line-height: 53px;
+    font-weight: 700;
+    color: #252EFF;
+}
+.username1 {
+    width: 352px;
+    height: 42px;
+    margin: 0 24px 19px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #6066FF;
+    border-radius: 20px;
+    font-family: Inter;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #121212;
+}
+.username1::-webkit-input-placeholder {
+    color: #000000B2;
+}
+.password1 {
+    width: 352px;
+    height: 42px;
+    margin: 0 24px 41px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #6066FF;
+    border-radius: 20px;
+    font-family: Inter;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #121212;
+}
+.password1::-webkit-input-placeholder {
+    color: #000000B2;
+}
+.login1 {
+    width: 176px;
+    height: 42px;
+    background-color:#252EFF;
+    margin: 0 112px 84px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #252EFF;
+    border-radius: 20px;
+    font-family: Inter;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.form2 {
+    width: 400px;
+    height: 400px;
+    margin: 34px;
+    float: left;
+    background-color: #121212;
+    box-sizing: border-box;
+    border: 1px solid #121212;
+    border-radius: 10px;
+}
+.header2 {
+    margin: 34px 140px 41px 140px;
+    font-family: Inter;
+    font-size: 44px;
+    line-height: 53px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.username2 {
+    width: 352px;
+    height: 42px;
+    margin: 0 24px 19px;
+    padding: 12px 20px;
+    background-color: #121212;
+    box-sizing: border-box;
+    border: 2px solid #6066FF;
+    border-radius: 20px;
+    font-family: Inter;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.username2::-webkit-input-placeholder {
+    color: #FFFFFF;
+}
+.password2 {
+    width: 352px;
+    height: 42px;
+    margin: 0 24px 41px;
+    padding: 12px 20px;
+    background-color: #121212;
+    box-sizing: border-box;
+    border: 2px solid #6066FF;
+    border-radius: 20px;
+    font-family: Inter;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.password2::-webkit-input-placeholder {
+    color: #FFFFFF;
+}
+.login2 {
+    width: 176px;
+    height: 42px;
+    background-color:#8B54FF;
+    margin: 0 112px 84px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 2px solid #9CA6FF;
+    border-radius: 20px;
+    font-family: Inter;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.form3 {
+    width: 400px;
+    height: 600px;
+    margin: 34px;
+    float: left;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+}
+.header3 {
+    margin: 34px 110px 69px 109px;
+    font-family: Inter;
+    font-size: 44px;
+    line-height: 53px;
+    font-weight: 700;
+    color: #252EFF;
+}
+.fullName1 {
+    width: 352px;
+    height: 42px;
+    margin: 0 24px 15px;
+    padding: 12px 22px 12px 22px;
+    box-sizing: border-box;
+    border: 2px solid #6066FF;
+    border-radius: 20px;
+    font-family: Inter;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #121212;
+}
+.fullName1::-webkit-input-placeholder {
+    color: #000000B2;
+}
+.email1 {
+    width: 352px;
+    height: 42px;
+    margin: 0 24px 15px;
+    padding: 12px 22px 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #6066FF;
+    border-radius: 20px;
+    font-family: Inter;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #121212;
+}
+.email1::-webkit-input-placeholder {
+    color: #000000B2;
+}
+.phone1 {
+    width: 352px;
+    height: 42px;
+    margin: 0 24px 15px;
+    padding: 12px 22px 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #6066FF;
+    border-radius: 20px;
+    font-family: Inter;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #121212;
+}
+.phone1::-webkit-input-placeholder {
+    color: #000000B2;
+}
+.password3 {
+    width: 352px;
+    height: 42px;
+    margin: 0 24px 15px;
+    padding: 12px 22px 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #6066FF;
+    border-radius: 20px;
+    font-family: Inter;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #121212;
+}
+.password3::-webkit-input-placeholder {
+    color: #000000B2;
+}
+.confirmP3 {
+    width: 352px;
+    height: 42px;
+    margin: 0 24px 40px;
+    padding: 12px 22px 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #6066FF;
+    border-radius: 20px;
+    font-family: Inter;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #121212;
+}
+.confirmP3::-webkit-input-placeholder {
+    color: #000000B2;
+}
+.register1 {
+    width: 352px;
+    height: 42px;
+    background-color:#252EFF;
+    margin: 0 24px 14px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #252EFF;
+    border-radius: 20px;
+    font-family: Inter;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.signIn1 {
+    width: 352px;
+    height: 42px;
+    background-color:#5E64FF;
+    margin: 0 24px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #5E64FF;
+    border-radius: 20px;
+    font-family: Inter;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.form4 {
+    width: 400px;
+    height: 600px;
+    margin: 34px;
+    float: left;
+    background-color: #121212;
+    box-sizing: border-box;
+    border: 1px solid #121212;
+    border-radius: 10px;
+}
+.header4 {
+    margin: 34px 110px 69px 109px;
+    font-family: Inter;
+    font-size: 44px;
+    line-height: 53px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.fullName2 {
+    width: 352px;
+    height: 42px;
+    background-color: #121212;
+    margin: 0 24px 15px;
+    padding: 12px 22px 12px 22px;
+    box-sizing: border-box;
+    border: 2px solid #9CA6FF;
+    border-radius: 20px;
+    font-family: Inter;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.fullName2::-webkit-input-placeholder {
+    color: #FFFFFF;
+}
+.email2 {
+    width: 352px;
+    height: 42px;
+    background-color: #121212;
+    margin: 0 24px 15px;
+    padding: 12px 22px 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #9CA6FF;
+    border-radius: 20px;
+    font-family: Inter;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.email2::-webkit-input-placeholder {
+    color: #FFFFFF;
+}
+.phone2 {
+    width: 352px;
+    height: 42px;
+    background-color: #121212;
+    margin: 0 24px 15px;
+    padding: 12px 22px 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #9CA6FF;
+    border-radius: 20px;
+    font-family: Inter;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.phone2::-webkit-input-placeholder {
+    color: #FFFFFF;
+}
+.password4 {
+    width: 352px;
+    height: 42px;
+    background-color: #121212;
+    margin: 0 24px 15px;
+    padding: 12px 22px 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #9CA6FF;
+    border-radius: 20px;
+    font-family: Inter;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.password4::-webkit-input-placeholder {
+    color: #FFFFFF;
+}
+.confirmP4 {
+    width: 352px;
+    height: 42px;
+    background-color: #121212;
+    margin: 0 24px 40px;
+    padding: 12px 22px 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #9CA6FF;
+    border-radius: 20px;
+    font-family: Inter;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.confirmP4::-webkit-input-placeholder {
+    color: #FFFFFF;
+}
+.register2 {
+    width: 352px;
+    height: 42px;
+    background-color:#8B54FF;
+    margin: 0 24px 14px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 2px solid #9CA6FF;
+    border-radius: 20px;
+    font-family: Inter;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.signIn2 {
+    width: 352px;
+    height: 42px;
+    background-color:#5E64FF;
+    margin: 0 24px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 2px solid #9CA6FF;
+    border-radius: 20px;
+    font-family: Inter;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+
+
+
+
+ 
